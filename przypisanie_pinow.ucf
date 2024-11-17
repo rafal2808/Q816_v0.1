@@ -1,0 +1,92 @@
+NET "CPUclk"			LOC = "P184" ;
+ 
+NET "CPUreset"			LOC = "P101" ;
+
+NET "CPUin[0]"			LOC = "p75"  ;
+NET "CPUin[1]"			LOC = "p76"  ;
+NET "CPUin[2]"			LOC = "p69"  ;
+NET "CPUin[3]"			LOC = "p74"  ;
+NET "CPUin[4]"			LOC = "p64"  ;
+NET "CPUin[5]"			LOC = "p65"  ;
+NET "CPUin[6]"			LOC = "p62"  ;
+NET "CPUin[7]"			LOC = "p63"  ;
+
+NET "CPUout[0]"			LOC = "p132"  ;
+NET "CPUout[1]"			LOC = "p129"  ;
+NET "CPUout[2]"			LOC = "p128"  ;
+NET "CPUout[3]"			LOC = "p127"  ;
+NET "CPUout[4]"			LOC = "p126"  ;
+NET "CPUout[5]"		 	LOC = "p123"  ; 
+NET "CPUout[6]"		 	LOC = "p122"  ; 
+NET "CPUout[7]"			LOC = "p120"  ;
+
+NET "CPUvga[0]"			LOC = "p119"  ;
+NET "CPUvga[1]"			LOC = "p116"  ;
+NET "CPUvga[2]"			LOC = "p8";
+NET "CPUvga[3]"		   LOC = "p115"  ;  
+NET "CPUvga[4]"			LOC = "p112"  ;
+NET "CPUvga[5]"			LOC = "p109"  ;
+NET "CPUvga[6]"			LOC = "p108"  ;
+NET "CPUvga[7]"			LOC = "p107"  ;
+
+NET "CPUram_a[0]"			LOC = "p106"  ;
+NET "CPUram_a[1]"			LOC = "p102"  ;
+NET "CPUram_a[2]"			LOC = "p100"  ;
+NET "CPUram_a[3]"			LOC = "p99"  ;
+NET "CPUram_a[4]"			LOC = "p98"  ; 
+NET "CPUram_a[5]"			LOC = "p97"  ;
+NET "CPUram_a[6]"			LOC = "p96"  ;
+NET "CPUram_a[7]"			LOC = "p94"  ;
+
+NET "CPUram_we[0]"			LOC = "p160"  ;
+NET "CPUram_we[1]"			LOC = "p153"  ;
+NET "CPUram_we[2]"			LOC = "p152"  ;
+NET "CPUram_we[3]"			LOC = "p151"  ;
+NET "CPUram_we[4]"			LOC = "p150"  ;  
+NET "CPUram_we[5]"			LOC = "p147"  ;
+NET "CPUram_we[6]"			LOC = "p146"  ;
+NET "CPUram_we[7]"			LOC = "p145"  ;
+
+NET "CPUram_wy[0]"			LOC = "p144"  ; 
+NET "CPUram_wy[1]"			LOC = "p140"  ;
+NET "CPUram_wy[2]"			LOC = "p139"  ;
+NET "CPUram_wy[3]"			LOC = "p138"  ;
+NET "CPUram_wy[4]"			LOC = "p137"  ;
+NET "CPUram_wy[5]"			LOC = "p135"  ;
+NET "CPUram_wy[6]"			LOC = "p134"  ;
+NET "CPUram_wy[7]"			LOC = "p133"  ;
+
+NET "CPUram_clk"			LOC ="p61"; 
+NET "CPUram_e"				LOC ="p60";
+
+NET "CPUrom_a[0]"				LOC ="p55";  
+NET "CPUrom_a[1]"				LOC ="p50";  
+NET "CPUrom_a[2]"				LOC ="p49"; 
+NET "CPUrom_a[3]"				LOC ="p48"; 
+NET "CPUrom_a[4]"				LOC ="p47";
+NET "CPUrom_a[5]"				LOC ="p45"; 
+NET "CPUrom_a[6]"				LOC ="p42";
+NET "CPUrom_a[7]"				LOC ="p41";
+NET "CPUrom_a[8]"				LOC ="p40";
+NET "CPUrom_a[9]"				LOC ="p39"; 
+NET "CPUrom_a[10]"			LOC ="p36"; 
+NET "CPUrom_a[11]"			LOC ="p35";  
+NET "CPUrom_a[12]"			LOC ="p34"; 
+NET "CPUrom_a[13]"			LOC ="p33";
+NET "CPUrom_a[14]"			LOC ="p31";
+NET "CPUrom_a[15]"			LOC ="p30";
+
+NET "CPUrom_ir[0]"			LOC ="p29"; 
+NET "CPUrom_ir[1]"			LOC ="p28";
+NET "CPUrom_ir[2]"			LOC ="p25";
+NET "CPUrom_ir[3]"			LOC ="p24";
+NET "CPUrom_ir[4]"			LOC ="p23";  
+
+NET "CPUrom_db[0]"			LOC ="p22";  
+NET "CPUrom_db[1]"			LOC ="p19"; 
+NET "CPUrom_db[2]"			LOC ="p18"; 
+NET "CPUrom_db[3]"			LOC ="p16"; 
+NET "CPUrom_db[4]"			LOC ="p15";
+NET "CPUrom_db[5]"			LOC ="p12";  
+NET "CPUrom_db[6]"			LOC ="p11"; 
+NET "CPUrom_db[7]"			LOC ="p9";
